@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_OrderAddMissingName>
+            <version>1.0.1</version>
+        </Loewenstark_OrderAddMissingName>
+    </modules>
+    <global>
+        <blocks>
+            <loewenstark_orderaddmissingname>
+                <class>Loewenstark_OrderAddMissingName_Block</class>
+            </loewenstark_orderaddmissingname>
+        </blocks>
+        <helpers>
+            <loewenstark_orderaddmissingname>
+                <class>Loewenstark_OrderAddMissingName_Helper</class>
+            </loewenstark_orderaddmissingname>
+        </helpers>
+        <models>
+            <loewenstark_orderaddmissingname>
+                <class>Loewenstark_OrderAddMissingName_Model</class>
+            </loewenstark_orderaddmissingname>
+        </models>
+        <resources>
+            <loewenstark_orderaddmissingname_setup>
+                <setup>
+                    <module>Loewenstark_OrderAddMissingName</module>
+                    <class>Loewenstark_OrderAddMissingName_Model_Resource_Setup</class>
+                </setup>
+            </loewenstark_orderaddmissingname_setup>
+        </resources>
+    </global>
+</config>
